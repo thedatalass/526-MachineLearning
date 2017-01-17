@@ -1,0 +1,716 @@
+@RELATION HW0-usaid-data
+
+@ATTRIBUTE attribute_0 {"China,"Korea,Afghanistan,Albania,Algeria,Angola,Antigua and Barbuda,Argentina,Armenia,Australia,Austria,Azerbaijan,Bahamas,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bermuda,Bhutan,Bolivia,Bosnia and Herzegovina,Botswana,Brazil,Brunei,Bulgaria,Burkina Faso,Burma (Myanmar),Burundi,Cabo Verde,Cambodia,Cameroon,Canada,Central African Republic,Chad,Chile,China (P.R. Hong Kong),China (P.R.C.),China (Tibet),Colombia,Comoros,Congo (Brazzaville),Congo (Kinshasa),Costa Rica,Cote d'Ivoire,Croatia,Cuba,Cyprus,Czechia,Djibouti,Dominica,Dominican Republic,Ecuador,Egypt,El Salvador,Equatorial Guinea,Eritrea,Estonia,Ethiopia,Fiji,Finland,France,Gabon,Gambia,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,Guinea,Guinea-Bissau,Guyana,Haiti,Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland,Israel,Italy,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Korea Republic,Kosovo,Kuwait,Kyrgyzstan,Laos,Latvia,Lebanon,Lesotho,Liberia,Libya,Lithuania,Macedonia,Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Marshall Islands,Mauritania,Mauritius,Mexico,Micronesia (Federated States),Moldova,Mongolia,Montenegro,Morocco,Mozambique,Namibia,Nauru,Nepal,Netherlands,New Zealand,Nicaragua,Niger,Nigeria,Norway,Oman,Pakistan,Palau,Panama,Papua New Guinea,Paraguay,Peru,Philippines,Poland,Portugal,Qatar,Romania,Russia,Rwanda,Samoa,Sao Tome and Principe,Saudi Arabia,Senegal,Serbia,Seychelles,Sierra Leone,Singapore,Slovak Republic,Slovenia,Solomon Islands,Somalia,South Africa,South Sudan,Spain,Sri Lanka,St. Kitts and Nevis,St. Lucia,St. Vincent and Grenadines,Sudan,Sudan (former),Suriname,Swaziland,Sweden,Switzerland,Syria,Tajikistan,Tanzania,Thailand,Timor-Leste,Togo,Tonga,Trinidad and Tobago,Tunisia,Turkey,Turkmenistan,Tuvalu,Uganda,Ukraine,United Arab Emirates,United Kingdom,Uruguay,Uzbekistan,Vanuatu,Venezuela,Vietnam,West Bank/Gaza,Yemen,Zambia,Zimbabwe,country_name}
+@ATTRIBUTE attribute_1 {Democratic Republic",East Asia and Oceania,Europe and Eurasia,Middle East and North Africa,Republic of (Taiwan)",South and Central Asia,Sub-Saharan Africa,Western Hemisphere,region_name}
+@ATTRIBUTE attribute_2 {East Asia and Oceania,Economic,Military,assistance_category_name}
+@ATTRIBUTE attribute_3 {Disbursements,Economic,Obligations,transaction_type_name}
+@ATTRIBUTE attribute_4 REAL
+@ATTRIBUTE attribute_5 REAL
+@ATTRIBUTE attribute_6 REAL
+@ATTRIBUTE attribute_7 {Actual Amt < 10m,0,1}
+
+@DATA
+country_name,region_name,assistance_category_name,transaction_type_name,2015_amount,Aid in Previous Year > 10m,Actual Amt >10 m,Actual Amt < 10m
+Afghanistan,South and Central Asia,Economic,Obligations,1988557428,1,1,0
+Afghanistan,South and Central Asia,Economic,Disbursements,2224419103,1,1,0
+Afghanistan,South and Central Asia,Military,Obligations,1083944955,1,1,0
+Afghanistan,South and Central Asia,Military,Disbursements,1081301244,1,1,0
+Albania,Europe and Eurasia,Economic,Obligations,23674305,1,1,0
+Albania,Europe and Eurasia,Economic,Disbursements,18553548,1,1,0
+Albania,Europe and Eurasia,Military,Obligations,3520204,0,0,1
+Albania,Europe and Eurasia,Military,Disbursements,3520204,0,0,1
+Algeria,Middle East and North Africa,Economic,Obligations,13274957,1,1,0
+Algeria,Middle East and North Africa,Economic,Disbursements,7504667,0,0,1
+Algeria,Middle East and North Africa,Military,Obligations,1747128,0,0,1
+Algeria,Middle East and North Africa,Military,Disbursements,1747128,0,0,1
+Angola,Sub-Saharan Africa,Economic,Obligations,57608255,1,1,0
+Angola,Sub-Saharan Africa,Economic,Disbursements,61494920,1,1,0
+Angola,Sub-Saharan Africa,Military,Obligations,717500,0,0,1
+Angola,Sub-Saharan Africa,Military,Disbursements,717500,0,0,1
+Antigua and Barbuda,Western Hemisphere,Economic,Obligations,20033,0,0,1
+Antigua and Barbuda,Western Hemisphere,Economic,Disbursements,14130,0,0,1
+Antigua and Barbuda,Western Hemisphere,Military,Obligations,385000,0,0,1
+Antigua and Barbuda,Western Hemisphere,Military,Disbursements,385000,0,0,1
+Azerbaijan,Europe and Eurasia,Economic,Obligations,19662327,1,1,0
+Azerbaijan,Europe and Eurasia,Economic,Disbursements,22512506,1,1,0
+Azerbaijan,Europe and Eurasia,Military,Obligations,15667515,1,1,0
+Azerbaijan,Europe and Eurasia,Military,Disbursements,3380689,1,0,1
+Argentina,Western Hemisphere,Economic,Obligations,1959070,1,0,1
+Argentina,Western Hemisphere,Economic,Disbursements,1825092,0,0,1
+Argentina,Western Hemisphere,Military,Obligations,336000,0,0,1
+Argentina,Western Hemisphere,Military,Disbursements,336000,0,0,1
+Australia,East Asia and Oceania,Economic,Obligations,4677,0,0,1
+Australia,East Asia and Oceania,Economic,Disbursements,4678,0,0,1
+Australia,East Asia and Oceania,Military,Obligations,245843,0,0,1
+Australia,East Asia and Oceania,Military,Disbursements,245843,0,0,1
+Austria,Europe and Eurasia,Economic,Obligations,109689,0,0,1
+Austria,Europe and Eurasia,Economic,Disbursements,109689,0,0,1
+Austria,Europe and Eurasia,Military,Obligations,3429,0,0,1
+Austria,Europe and Eurasia,Military,Disbursements,3429,0,0,1
+Bahamas,Western Hemisphere,Economic,Obligations,1545601,0,0,1
+Bahamas,Western Hemisphere,Economic,Disbursements,767064,0,0,1
+Bahamas,Western Hemisphere,Military,Obligations,1387895,0,0,1
+Bahamas,Western Hemisphere,Military,Disbursements,1387895,0,0,1
+Bahrain,Middle East and North Africa,Economic,Obligations,1296663,0,0,1
+Bahrain,Middle East and North Africa,Economic,Disbursements,1259711,0,0,1
+Bahrain,Middle East and North Africa,Military,Obligations,8077000,1,0,1
+Bahrain,Middle East and North Africa,Military,Disbursements,8077000,1,0,1
+Bangladesh,South and Central Asia,Economic,Obligations,222806597,1,1,0
+Bangladesh,South and Central Asia,Economic,Disbursements,250830290,1,1,0
+Bangladesh,South and Central Asia,Military,Obligations,4460403,1,0,1
+Bangladesh,South and Central Asia,Military,Disbursements,4460403,1,0,1
+Armenia,Europe and Eurasia,Economic,Obligations,45442810,1,1,0
+Armenia,Europe and Eurasia,Economic,Disbursements,39333349,1,1,0
+Armenia,Europe and Eurasia,Military,Obligations,11626206,1,1,0
+Armenia,Europe and Eurasia,Military,Disbursements,2934840,1,0,1
+Barbados,Western Hemisphere,Economic,Obligations,269422,0,0,1
+Barbados,Western Hemisphere,Economic,Disbursements,208240,0,0,1
+Barbados,Western Hemisphere,Military,Obligations,3184000,0,0,1
+Barbados,Western Hemisphere,Military,Disbursements,3184000,0,0,1
+Belgium,Europe and Eurasia,Economic,Obligations,9714064,0,0,1
+Belgium,Europe and Eurasia,Economic,Disbursements,5775753,0,0,1
+Bermuda,Western Hemisphere,Economic,Obligations,11250,0,0,1
+Bermuda,Western Hemisphere,Economic,Disbursements,11250,0,0,1
+Bhutan,South and Central Asia,Economic,Obligations,986307,0,0,1
+Bhutan,South and Central Asia,Economic,Disbursements,780088,0,0,1
+Bolivia,Western Hemisphere,Economic,Obligations,56613604,0,1,0
+Bolivia,Western Hemisphere,Economic,Disbursements,59144311,1,1,0
+Bosnia and Herzegovina,Europe and Eurasia,Economic,Obligations,40710367,1,1,0
+Bosnia and Herzegovina,Europe and Eurasia,Economic,Disbursements,42639175,1,1,0
+Bosnia and Herzegovina,Europe and Eurasia,Military,Obligations,5142713,0,0,1
+Bosnia and Herzegovina,Europe and Eurasia,Military,Disbursements,5142713,0,0,1
+Botswana,Sub-Saharan Africa,Economic,Obligations,43244339,1,1,0
+Botswana,Sub-Saharan Africa,Economic,Disbursements,51461760,1,1,0
+Botswana,Sub-Saharan Africa,Military,Obligations,615653,0,0,1
+Botswana,Sub-Saharan Africa,Military,Disbursements,615653,0,0,1
+Brazil,Western Hemisphere,Economic,Obligations,19377756,1,1,0
+Brazil,Western Hemisphere,Economic,Disbursements,19110645,1,1,0
+Brazil,Western Hemisphere,Military,Obligations,778731,0,0,1
+Brazil,Western Hemisphere,Military,Disbursements,778731,0,0,1
+Belize,Western Hemisphere,Economic,Obligations,1608576,0,0,1
+Belize,Western Hemisphere,Economic,Disbursements,1837129,0,0,1
+Belize,Western Hemisphere,Military,Obligations,5712193,0,0,1
+Belize,Western Hemisphere,Military,Disbursements,5712193,0,0,1
+Solomon Islands,East Asia and Oceania,Economic,Obligations,575000,0,0,1
+Solomon Islands,East Asia and Oceania,Economic,Disbursements,596081,0,0,1
+Solomon Islands,East Asia and Oceania,Military,Obligations,13000,0,0,1
+Solomon Islands,East Asia and Oceania,Military,Disbursements,13000,0,0,1
+Brunei,East Asia and Oceania,Economic,Obligations,94092,0,0,1
+Brunei,East Asia and Oceania,Economic,Disbursements,94092,0,0,1
+Brunei,East Asia and Oceania,Military,Obligations,5346,0,0,1
+Brunei,East Asia and Oceania,Military,Disbursements,5346,0,0,1
+Bulgaria,Europe and Eurasia,Economic,Obligations,6617089,1,0,1
+Bulgaria,Europe and Eurasia,Economic,Disbursements,8614815,0,0,1
+Bulgaria,Europe and Eurasia,Military,Obligations,9771097,0,0,1
+Bulgaria,Europe and Eurasia,Military,Disbursements,9771097,0,0,1
+Burma (Myanmar),East Asia and Oceania,Economic,Obligations,119205373,1,1,0
+Burma (Myanmar),East Asia and Oceania,Economic,Disbursements,111593470,0,1,0
+Burundi,Sub-Saharan Africa,Economic,Obligations,47987224,1,1,0
+Burundi,Sub-Saharan Africa,Economic,Disbursements,48383365,1,1,0
+Burundi,Sub-Saharan Africa,Military,Obligations,615943,0,0,1
+Burundi,Sub-Saharan Africa,Military,Disbursements,615943,0,0,1
+Belarus,Europe and Eurasia,Economic,Obligations,46596935,1,1,0
+Belarus,Europe and Eurasia,Economic,Disbursements,17390445,1,1,0
+Cambodia,East Asia and Oceania,Economic,Obligations,81514660,1,1,0
+Cambodia,East Asia and Oceania,Economic,Disbursements,91597169,1,1,0
+Cambodia,East Asia and Oceania,Military,Obligations,4492220,0,0,1
+Cambodia,East Asia and Oceania,Military,Disbursements,1575724,0,0,1
+Cameroon,Sub-Saharan Africa,Economic,Obligations,103349978,1,1,0
+Cameroon,Sub-Saharan Africa,Economic,Disbursements,57617656,1,1,0
+Cameroon,Sub-Saharan Africa,Military,Obligations,44097873,0,1,0
+Cameroon,Sub-Saharan Africa,Military,Disbursements,32467873,0,1,0
+Canada,Western Hemisphere,Economic,Obligations,11218882,1,1,0
+Canada,Western Hemisphere,Economic,Disbursements,47034682,0,1,0
+Canada,Western Hemisphere,Military,Obligations,28397,0,0,1
+Canada,Western Hemisphere,Military,Disbursements,28397,0,0,1
+Cabo Verde,Sub-Saharan Africa,Economic,Obligations,1512137,0,0,1
+Cabo Verde,Sub-Saharan Africa,Economic,Disbursements,11303648,0,1,0
+Cabo Verde,Sub-Saharan Africa,Military,Obligations,2010000,0,0,1
+Cabo Verde,Sub-Saharan Africa,Military,Disbursements,2010000,0,0,1
+Central African Republic,Sub-Saharan Africa,Economic,Obligations,83580684,1,1,0
+Central African Republic,Sub-Saharan Africa,Economic,Disbursements,69877823,1,1,0
+Sri Lanka,South and Central Asia,Economic,Obligations,32096003,1,1,0
+Sri Lanka,South and Central Asia,Economic,Disbursements,32631782,1,1,0
+Sri Lanka,South and Central Asia,Military,Obligations,782913,0,0,1
+Sri Lanka,South and Central Asia,Military,Disbursements,782913,0,0,1
+Chad,Sub-Saharan Africa,Economic,Obligations,99457951,1,1,0
+Chad,Sub-Saharan Africa,Economic,Disbursements,68253115,1,1,0
+Chad,Sub-Saharan Africa,Military,Obligations,9276372,1,0,1
+Chad,Sub-Saharan Africa,Military,Disbursements,9276372,1,0,1
+Chile,Western Hemisphere,Economic,Obligations,2717928,0,0,1
+Chile,Western Hemisphere,Economic,Disbursements,2221418,0,0,1
+Chile,Western Hemisphere,Military,Obligations,803724,0,0,1
+Chile,Western Hemisphere,Military,Disbursements,803724,0,0,1
+China (P.R.C.),East Asia and Oceania,Economic,Obligations,43639166,1,1,0
+China (P.R.C.),East Asia and Oceania,Economic,Disbursements,36793917,1,1,0
+China (P.R.C.),East Asia and Oceania,Military,Obligations,3492094,0,0,1
+China (P.R.C.),East Asia and Oceania,Military,Disbursements,228000,0,0,1
+"China, Republic of (Taiwan)",East Asia and Oceania,Economic,Obligations,526142,0,0,1
+"China, Republic of (Taiwan)",East Asia and Oceania,Economic,Disbursements,667912,0,0,1
+Colombia,Western Hemisphere,Economic,Obligations,762972310,1,1,0
+Colombia,Western Hemisphere,Economic,Disbursements,632849729,1,1,0
+Colombia,Western Hemisphere,Military,Obligations,78153053,1,1,0
+Colombia,Western Hemisphere,Military,Disbursements,78153053,1,1,0
+Comoros,Sub-Saharan Africa,Economic,Obligations,1529544,0,0,1
+Comoros,Sub-Saharan Africa,Economic,Disbursements,1028710,0,0,1
+Comoros,Sub-Saharan Africa,Military,Obligations,390500,0,0,1
+Comoros,Sub-Saharan Africa,Military,Disbursements,390500,0,0,1
+Congo (Brazzaville),Sub-Saharan Africa,Economic,Obligations,2313485,0,0,1
+Congo (Brazzaville),Sub-Saharan Africa,Economic,Disbursements,2363880,0,0,1
+Congo (Brazzaville),Sub-Saharan Africa,Military,Obligations,270000,0,0,1
+Congo (Brazzaville),Sub-Saharan Africa,Military,Disbursements,270000,0,0,1
+Congo (Kinshasa),Sub-Saharan Africa,Economic,Obligations,459882992,1,1,0
+Congo (Kinshasa),Sub-Saharan Africa,Economic,Disbursements,843634680,1,1,0
+Congo (Kinshasa),Sub-Saharan Africa,Military,Obligations,7599867,1,0,1
+Congo (Kinshasa),Sub-Saharan Africa,Military,Disbursements,8018237,0,0,1
+Costa Rica,Western Hemisphere,Economic,Obligations,10131421,1,1,0
+Costa Rica,Western Hemisphere,Economic,Disbursements,7881859,0,0,1
+Costa Rica,Western Hemisphere,Military,Obligations,4186617,0,0,1
+Costa Rica,Western Hemisphere,Military,Disbursements,4186617,0,0,1
+Croatia,Europe and Eurasia,Economic,Obligations,1112259,0,0,1
+Croatia,Europe and Eurasia,Economic,Disbursements,2619789,0,0,1
+Croatia,Europe and Eurasia,Military,Obligations,4685301,0,0,1
+Croatia,Europe and Eurasia,Military,Disbursements,4685301,0,0,1
+Cuba,Western Hemisphere,Economic,Obligations,5773135,0,0,1
+Cuba,Western Hemisphere,Economic,Disbursements,13146845,1,1,0
+Cyprus,Europe and Eurasia,Economic,Obligations,-40817,0,0,1
+Cyprus,Europe and Eurasia,Economic,Disbursements,2398758,0,0,1
+Czechia,Europe and Eurasia,Economic,Obligations,1529348,0,0,1
+Czechia,Europe and Eurasia,Economic,Disbursements,1155914,0,0,1
+Czechia,Europe and Eurasia,Military,Obligations,3912380,0,0,1
+Czechia,Europe and Eurasia,Military,Disbursements,3912380,0,0,1
+Benin,Sub-Saharan Africa,Economic,Obligations,112182610,1,1,0
+Benin,Sub-Saharan Africa,Economic,Disbursements,52991568,1,1,0
+Benin,Sub-Saharan Africa,Military,Obligations,1013000,0,0,1
+Benin,Sub-Saharan Africa,Military,Disbursements,1013000,0,0,1
+Dominica,Western Hemisphere,Economic,Obligations,166497,0,0,1
+Dominica,Western Hemisphere,Economic,Disbursements,16497,0,0,1
+Dominica,Western Hemisphere,Military,Obligations,393000,0,0,1
+Dominica,Western Hemisphere,Military,Disbursements,393000,0,0,1
+Dominican Republic,Western Hemisphere,Economic,Obligations,106191534,1,1,0
+Dominican Republic,Western Hemisphere,Economic,Disbursements,43959920,1,1,0
+Dominican Republic,Western Hemisphere,Military,Obligations,4580601,0,0,1
+Dominican Republic,Western Hemisphere,Military,Disbursements,4580601,0,0,1
+Ecuador,Western Hemisphere,Economic,Obligations,34894487,1,1,0
+Ecuador,Western Hemisphere,Economic,Disbursements,35929017,1,1,0
+Ecuador,Western Hemisphere,Military,Obligations,3270,0,0,1
+Ecuador,Western Hemisphere,Military,Disbursements,3270,0,0,1
+El Salvador,Western Hemisphere,Economic,Obligations,323052149,1,1,0
+El Salvador,Western Hemisphere,Economic,Disbursements,67135678,1,1,0
+El Salvador,Western Hemisphere,Military,Obligations,8611476,0,0,1
+El Salvador,Western Hemisphere,Military,Disbursements,8611476,0,0,1
+Equatorial Guinea,Sub-Saharan Africa,Economic,Obligations,4391506,0,0,1
+Equatorial Guinea,Sub-Saharan Africa,Economic,Disbursements,232534,0,0,1
+Ethiopia,Sub-Saharan Africa,Economic,Obligations,784651547,1,1,0
+Ethiopia,Sub-Saharan Africa,Economic,Disbursements,682242486,1,1,0
+Ethiopia,Sub-Saharan Africa,Military,Obligations,24174037,0,1,0
+Ethiopia,Sub-Saharan Africa,Military,Disbursements,21328367,0,1,0
+Eritrea,Sub-Saharan Africa,Economic,Obligations,66453,0,0,1
+Eritrea,Sub-Saharan Africa,Economic,Disbursements,80230,0,0,1
+Estonia,Europe and Eurasia,Economic,Obligations,724351,0,0,1
+Estonia,Europe and Eurasia,Economic,Disbursements,2746345,0,0,1
+Estonia,Europe and Eurasia,Military,Obligations,5007394,0,0,1
+Estonia,Europe and Eurasia,Military,Disbursements,5007394,0,0,1
+Fiji,East Asia and Oceania,Economic,Obligations,1501896,0,0,1
+Fiji,East Asia and Oceania,Economic,Disbursements,1779446,0,0,1
+Fiji,East Asia and Oceania,Military,Obligations,463500,0,0,1
+Fiji,East Asia and Oceania,Military,Disbursements,463500,0,0,1
+Finland,Europe and Eurasia,Economic,Obligations,20000,0,0,1
+Finland,Europe and Eurasia,Economic,Disbursements,16656,0,0,1
+France,Europe and Eurasia,Economic,Obligations,4416544,0,0,1
+France,Europe and Eurasia,Economic,Disbursements,2946292,0,0,1
+France,Europe and Eurasia,Military,Obligations,7638,0,0,1
+France,Europe and Eurasia,Military,Disbursements,7638,0,0,1
+Djibouti,Sub-Saharan Africa,Economic,Obligations,13679418,0,1,0
+Djibouti,Sub-Saharan Africa,Economic,Disbursements,9188790,1,0,1
+Djibouti,Sub-Saharan Africa,Military,Obligations,10000473,1,1,0
+Djibouti,Sub-Saharan Africa,Military,Disbursements,10000473,1,1,0
+Gabon,Sub-Saharan Africa,Economic,Obligations,9120422,0,0,1
+Gabon,Sub-Saharan Africa,Economic,Disbursements,9467764,0,0,1
+Gabon,Sub-Saharan Africa,Military,Obligations,1000500,0,0,1
+Gabon,Sub-Saharan Africa,Military,Disbursements,1000500,0,0,1
+Georgia,Europe and Eurasia,Economic,Obligations,50901995,1,1,0
+Georgia,Europe and Eurasia,Economic,Disbursements,117560416,1,1,0
+Georgia,Europe and Eurasia,Military,Obligations,58996435,1,1,0
+Georgia,Europe and Eurasia,Military,Disbursements,33494353,1,1,0
+Gambia,Sub-Saharan Africa,Economic,Obligations,2362027,0,0,1
+Gambia,Sub-Saharan Africa,Economic,Disbursements,2229513,0,0,1
+Gambia,Sub-Saharan Africa,Military,Obligations,53000,0,0,1
+Gambia,Sub-Saharan Africa,Military,Disbursements,53000,0,0,1
+West Bank/Gaza,Middle East and North Africa,Economic,Obligations,556576093,1,1,0
+West Bank/Gaza,Middle East and North Africa,Economic,Disbursements,456553887,1,1,0
+West Bank/Gaza,Middle East and North Africa,Military,Obligations,163614,0,0,1
+West Bank/Gaza,Middle East and North Africa,Military,Disbursements,163614,0,0,1
+Germany,Europe and Eurasia,Economic,Obligations,3864921,0,0,1
+Germany,Europe and Eurasia,Economic,Disbursements,2512598,0,0,1
+Germany,Europe and Eurasia,Military,Obligations,17608,0,0,1
+Germany,Europe and Eurasia,Military,Disbursements,17608,0,0,1
+Ghana,Sub-Saharan Africa,Economic,Obligations,293102492,1,1,0
+Ghana,Sub-Saharan Africa,Economic,Disbursements,194375413,1,1,0
+Ghana,Sub-Saharan Africa,Military,Obligations,4444846,0,0,1
+Ghana,Sub-Saharan Africa,Military,Disbursements,4444846,0,0,1
+Kiribati,East Asia and Oceania,Economic,Obligations,50000,0,0,1
+Kiribati,East Asia and Oceania,Economic,Disbursements,50000,0,0,1
+Kiribati,East Asia and Oceania,Military,Obligations,118000,0,0,1
+Kiribati,East Asia and Oceania,Military,Disbursements,118000,0,0,1
+Greece,Europe and Eurasia,Economic,Obligations,625705,0,0,1
+Greece,Europe and Eurasia,Economic,Disbursements,706470,0,0,1
+Greece,Europe and Eurasia,Military,Obligations,612197,0,0,1
+Greece,Europe and Eurasia,Military,Disbursements,612197,0,0,1
+Grenada,Western Hemisphere,Economic,Obligations,4928,0,0,1
+Grenada,Western Hemisphere,Economic,Disbursements,4928,0,0,1
+Grenada,Western Hemisphere,Military,Obligations,396000,0,0,1
+Grenada,Western Hemisphere,Military,Disbursements,396000,0,0,1
+Guatemala,Western Hemisphere,Economic,Obligations,114323689,1,1,0
+Guatemala,Western Hemisphere,Economic,Disbursements,123401470,1,1,0
+Guatemala,Western Hemisphere,Military,Obligations,23582103,1,1,0
+Guatemala,Western Hemisphere,Military,Disbursements,23582103,1,1,0
+Guinea,Sub-Saharan Africa,Economic,Obligations,172159865,1,1,0
+Guinea,Sub-Saharan Africa,Economic,Disbursements,75445694,1,1,0
+Guinea,Sub-Saharan Africa,Military,Obligations,282000,0,0,1
+Guinea,Sub-Saharan Africa,Military,Disbursements,1723000,0,0,1
+Guyana,Western Hemisphere,Economic,Obligations,6385856,0,0,1
+Guyana,Western Hemisphere,Economic,Disbursements,6531612,1,0,1
+Guyana,Western Hemisphere,Military,Obligations,735057,0,0,1
+Guyana,Western Hemisphere,Military,Disbursements,735057,0,0,1
+Haiti,Western Hemisphere,Economic,Obligations,500668781,1,1,0
+Haiti,Western Hemisphere,Economic,Disbursements,387705008,1,1,0
+Haiti,Western Hemisphere,Military,Obligations,1072000,0,0,1
+Haiti,Western Hemisphere,Military,Disbursements,1072000,0,0,1
+Honduras,Western Hemisphere,Economic,Obligations,111673258,1,1,0
+Honduras,Western Hemisphere,Economic,Disbursements,83857987,1,1,0
+Honduras,Western Hemisphere,Military,Obligations,22067284,1,1,0
+Honduras,Western Hemisphere,Military,Disbursements,22067284,1,1,0
+China (P.R. Hong Kong),East Asia and Oceania,Economic,Obligations,195465,0,0,1
+China (P.R. Hong Kong),East Asia and Oceania,Economic,Disbursements,195465,0,0,1
+China (P.R. Hong Kong),East Asia and Oceania,Military,Obligations,5000,0,0,1
+China (P.R. Hong Kong),East Asia and Oceania,Military,Disbursements,5000,0,0,1
+Hungary,Europe and Eurasia,Economic,Obligations,1937704,1,0,1
+Hungary,Europe and Eurasia,Economic,Disbursements,2157017,1,0,1
+Hungary,Europe and Eurasia,Military,Obligations,4956029,0,0,1
+Hungary,Europe and Eurasia,Military,Disbursements,4956029,0,0,1
+Iceland,Europe and Eurasia,Military,Obligations,3270,0,0,1
+Iceland,Europe and Eurasia,Military,Disbursements,3270,0,0,1
+India,South and Central Asia,Economic,Obligations,99607967,1,1,0
+India,South and Central Asia,Economic,Disbursements,110364115,1,1,0
+India,South and Central Asia,Military,Obligations,5307104,0,0,1
+India,South and Central Asia,Military,Disbursements,2004491,0,0,1
+Indonesia,East Asia and Oceania,Economic,Obligations,199672693,1,1,0
+Indonesia,East Asia and Oceania,Economic,Disbursements,232098398,1,1,0
+Indonesia,East Asia and Oceania,Military,Obligations,21093467,1,1,0
+Indonesia,East Asia and Oceania,Military,Disbursements,20769843,1,1,0
+Iran,Middle East and North Africa,Economic,Obligations,674800,0,0,1
+Iran,Middle East and North Africa,Economic,Disbursements,674800,0,0,1
+Iraq,Middle East and North Africa,Economic,Obligations,393094152,0,1,0
+Iraq,Middle East and North Africa,Economic,Disbursements,371108946,0,1,0
+Iraq,Middle East and North Africa,Military,Obligations,180345037,1,1,0
+Iraq,Middle East and North Africa,Military,Disbursements,174712104,1,1,0
+Ireland,Europe and Eurasia,Economic,Obligations,1250000,0,0,1
+Ireland,Europe and Eurasia,Economic,Disbursements,1520000,0,0,1
+Ireland,Europe and Eurasia,Military,Obligations,3270,0,0,1
+Ireland,Europe and Eurasia,Military,Disbursements,3270,0,0,1
+Israel,Middle East and North Africa,Economic,Obligations,13025333,1,1,0
+Israel,Middle East and North Africa,Economic,Disbursements,15699774,1,1,0
+Israel,Middle East and North Africa,Military,Obligations,3100000000,1,1,0
+Israel,Middle East and North Africa,Military,Disbursements,3100000000,1,1,0
+Italy,Europe and Eurasia,Economic,Obligations,628799,0,0,1
+Italy,Europe and Eurasia,Economic,Disbursements,645996,0,0,1
+Italy,Europe and Eurasia,Military,Obligations,13113,0,0,1
+Italy,Europe and Eurasia,Military,Disbursements,13113,0,0,1
+Cote d'Ivoire,Sub-Saharan Africa,Economic,Obligations,110634976,1,1,0
+Cote d'Ivoire,Sub-Saharan Africa,Economic,Disbursements,57684427,1,1,0
+Cote d'Ivoire,Sub-Saharan Africa,Military,Obligations,1355442,0,0,1
+Cote d'Ivoire,Sub-Saharan Africa,Military,Disbursements,1692442,0,0,1
+Jamaica,Western Hemisphere,Economic,Obligations,32676035,1,1,0
+Jamaica,Western Hemisphere,Economic,Disbursements,27338286,1,1,0
+Jamaica,Western Hemisphere,Military,Obligations,5067792,0,0,1
+Jamaica,Western Hemisphere,Military,Disbursements,5067792,0,0,1
+Japan,East Asia and Oceania,Economic,Obligations,8445897,0,0,1
+Japan,East Asia and Oceania,Economic,Disbursements,8492882,0,0,1
+Japan,East Asia and Oceania,Military,Obligations,16080,0,0,1
+Japan,East Asia and Oceania,Military,Disbursements,16080,0,0,1
+Kazakhstan,South and Central Asia,Economic,Obligations,112761687,1,1,0
+Kazakhstan,South and Central Asia,Economic,Disbursements,63266506,1,1,0
+Kazakhstan,South and Central Asia,Military,Obligations,78254364,1,1,0
+Kazakhstan,South and Central Asia,Military,Disbursements,16423972,1,1,0
+Jordan,Middle East and North Africa,Economic,Obligations,1045041816,1,1,0
+Jordan,Middle East and North Africa,Economic,Disbursements,1074204835,1,1,0
+Jordan,Middle East and North Africa,Military,Obligations,468298106,1,1,0
+Jordan,Middle East and North Africa,Military,Disbursements,454033033,1,1,0
+Kenya,Sub-Saharan Africa,Economic,Obligations,847406024,1,1,0
+Kenya,Sub-Saharan Africa,Economic,Disbursements,746024724,1,1,0
+Kenya,Sub-Saharan Africa,Military,Obligations,93845438,1,1,0
+Kenya,Sub-Saharan Africa,Military,Disbursements,77763208,1,1,0
+"Korea, Democratic Republic",East Asia and Oceania,Economic,Obligations,2003873,0,0,1
+"Korea, Democratic Republic",East Asia and Oceania,Economic,Disbursements,2003873,0,0,1
+Korea Republic,East Asia and Oceania,Economic,Obligations,5163689,0,0,1
+Korea Republic,East Asia and Oceania,Economic,Disbursements,3433770,0,0,1
+Kuwait,Middle East and North Africa,Economic,Obligations,38127,0,0,1
+Kuwait,Middle East and North Africa,Economic,Disbursements,226957,0,0,1
+Kuwait,Middle East and North Africa,Military,Obligations,3270,0,0,1
+Kuwait,Middle East and North Africa,Military,Disbursements,3270,0,0,1
+Kyrgyzstan,South and Central Asia,Economic,Obligations,60375879,1,1,0
+Kyrgyzstan,South and Central Asia,Economic,Disbursements,63554845,1,1,0
+Kyrgyzstan,South and Central Asia,Military,Obligations,1428216,0,0,1
+Kyrgyzstan,South and Central Asia,Military,Disbursements,1428216,0,0,1
+Laos,East Asia and Oceania,Economic,Obligations,16962697,1,1,0
+Laos,East Asia and Oceania,Economic,Disbursements,18323159,1,1,0
+Laos,East Asia and Oceania,Military,Obligations,2181506,0,0,1
+Laos,East Asia and Oceania,Military,Disbursements,874843,0,0,1
+Lebanon,Middle East and North Africa,Economic,Obligations,351426795,1,1,0
+Lebanon,Middle East and North Africa,Economic,Disbursements,275661720,1,1,0
+Lebanon,Middle East and North Africa,Military,Obligations,154493920,1,1,0
+Lebanon,Middle East and North Africa,Military,Disbursements,149280979,1,1,0
+Lesotho,Sub-Saharan Africa,Economic,Obligations,29164263,1,1,0
+Lesotho,Sub-Saharan Africa,Economic,Disbursements,29072491,1,1,0
+Lesotho,Sub-Saharan Africa,Military,Obligations,9908,0,0,1
+Lesotho,Sub-Saharan Africa,Military,Disbursements,9908,0,0,1
+Latvia,Europe and Eurasia,Economic,Obligations,334411,0,0,1
+Latvia,Europe and Eurasia,Economic,Disbursements,881965,0,0,1
+Latvia,Europe and Eurasia,Military,Obligations,13352912,0,1,0
+Latvia,Europe and Eurasia,Military,Disbursements,13352912,0,1,0
+Liberia,Sub-Saharan Africa,Economic,Obligations,759895938,1,1,0
+Liberia,Sub-Saharan Africa,Economic,Disbursements,501105764,1,1,0
+Liberia,Sub-Saharan Africa,Military,Obligations,6164000,0,0,1
+Liberia,Sub-Saharan Africa,Military,Disbursements,9610000,0,0,1
+Libya,Middle East and North Africa,Economic,Obligations,14997528,1,1,0
+Libya,Middle East and North Africa,Economic,Disbursements,24035393,1,1,0
+Lithuania,Europe and Eurasia,Economic,Obligations,4367755,0,0,1
+Lithuania,Europe and Eurasia,Economic,Disbursements,5487156,0,0,1
+Lithuania,Europe and Eurasia,Military,Obligations,7254199,0,0,1
+Lithuania,Europe and Eurasia,Military,Disbursements,7254199,0,0,1
+Madagascar,Sub-Saharan Africa,Economic,Obligations,155315146,1,1,0
+Madagascar,Sub-Saharan Africa,Economic,Disbursements,152164694,1,1,0
+Madagascar,Sub-Saharan Africa,Military,Obligations,323000,0,0,1
+Madagascar,Sub-Saharan Africa,Military,Disbursements,323000,0,0,1
+Malawi,Sub-Saharan Africa,Economic,Obligations,244679008,1,1,0
+Malawi,Sub-Saharan Africa,Economic,Disbursements,211400907,1,1,0
+Malawi,Sub-Saharan Africa,Military,Obligations,334500,0,0,1
+Malawi,Sub-Saharan Africa,Military,Disbursements,334500,0,0,1
+Malaysia,East Asia and Oceania,Economic,Obligations,7406354,1,0,1
+Malaysia,East Asia and Oceania,Economic,Disbursements,8355125,0,0,1
+Malaysia,East Asia and Oceania,Military,Obligations,3419899,0,0,1
+Malaysia,East Asia and Oceania,Military,Disbursements,1746541,0,0,1
+Maldives,South and Central Asia,Economic,Obligations,1730900,0,0,1
+Maldives,South and Central Asia,Economic,Disbursements,428551,0,0,1
+Maldives,South and Central Asia,Military,Obligations,1194398,0,1,0
+Maldives,South and Central Asia,Military,Disbursements,1194398,0,1,0
+Mali,Sub-Saharan Africa,Economic,Obligations,206276301,1,1,0
+Mali,Sub-Saharan Africa,Economic,Disbursements,162995991,1,1,0
+Mali,Sub-Saharan Africa,Military,Obligations,738188,0,0,1
+Mali,Sub-Saharan Africa,Military,Disbursements,738188,0,0,1
+Malta,Europe and Eurasia,Economic,Obligations,184166,0,0,1
+Malta,Europe and Eurasia,Economic,Disbursements,637035,0,0,1
+Malta,Europe and Eurasia,Military,Obligations,136784,0,0,1
+Malta,Europe and Eurasia,Military,Disbursements,136784,0,0,1
+Mauritania,Sub-Saharan Africa,Economic,Obligations,20163397,1,1,0
+Mauritania,Sub-Saharan Africa,Economic,Disbursements,24267414,1,1,0
+Mauritania,Sub-Saharan Africa,Military,Obligations,1472807,0,0,1
+Mauritania,Sub-Saharan Africa,Military,Disbursements,1472807,0,0,1
+Mauritius,Sub-Saharan Africa,Economic,Obligations,307611,0,0,1
+Mauritius,Sub-Saharan Africa,Economic,Disbursements,302765,0,0,1
+Mauritius,Sub-Saharan Africa,Military,Obligations,483956,0,0,1
+Mauritius,Sub-Saharan Africa,Military,Disbursements,483956,0,0,1
+Mexico,Western Hemisphere,Economic,Obligations,530518310,1,1,0
+Mexico,Western Hemisphere,Economic,Disbursements,283399756,1,1,0
+Mexico,Western Hemisphere,Military,Obligations,55334139,1,1,0
+Mexico,Western Hemisphere,Military,Disbursements,55057860,1,1,0
+Mongolia,East Asia and Oceania,Economic,Obligations,8548541,0,0,1
+Mongolia,East Asia and Oceania,Economic,Disbursements,12090788,1,1,0
+Mongolia,East Asia and Oceania,Military,Obligations,3936970,0,0,1
+Mongolia,East Asia and Oceania,Military,Disbursements,3936970,0,0,1
+Moldova,Europe and Eurasia,Economic,Obligations,38156677,1,1,0
+Moldova,Europe and Eurasia,Economic,Disbursements,121614414,1,1,0
+Moldova,Europe and Eurasia,Military,Obligations,16510601,0,1,0
+Moldova,Europe and Eurasia,Military,Disbursements,14151241,0,1,0
+Montenegro,Europe and Eurasia,Economic,Obligations,1591011,0,0,1
+Montenegro,Europe and Eurasia,Economic,Disbursements,2307024,0,0,1
+Montenegro,Europe and Eurasia,Military,Obligations,1941541,0,0,1
+Montenegro,Europe and Eurasia,Military,Disbursements,1941541,0,0,1
+Morocco,Middle East and North Africa,Economic,Obligations,54434060,1,1,0
+Morocco,Middle East and North Africa,Economic,Disbursements,34541040,0,1,0
+Morocco,Middle East and North Africa,Military,Obligations,15060351,0,1,0
+Morocco,Middle East and North Africa,Military,Disbursements,15060351,0,1,0
+Mozambique,Sub-Saharan Africa,Economic,Obligations,338157486,1,1,0
+Mozambique,Sub-Saharan Africa,Economic,Disbursements,323131372,1,1,0
+Mozambique,Sub-Saharan Africa,Military,Obligations,735500,0,0,1
+Mozambique,Sub-Saharan Africa,Military,Disbursements,735500,0,0,1
+Oman,Middle East and North Africa,Economic,Obligations,1798931,0,0,1
+Oman,Middle East and North Africa,Economic,Disbursements,2190784,0,0,1
+Oman,Middle East and North Africa,Military,Obligations,5838016,1,0,1
+Oman,Middle East and North Africa,Military,Disbursements,5838016,1,0,1
+Namibia,Sub-Saharan Africa,Economic,Obligations,43396051,1,1,0
+Namibia,Sub-Saharan Africa,Economic,Disbursements,85268378,1,1,0
+Namibia,Sub-Saharan Africa,Military,Obligations,195500,0,0,1
+Namibia,Sub-Saharan Africa,Military,Disbursements,195500,0,0,1
+Nauru,East Asia and Oceania,Military,Obligations,108000,0,0,1
+Nauru,East Asia and Oceania,Military,Disbursements,108000,0,0,1
+Nepal,South and Central Asia,Economic,Obligations,258255719,1,1,0
+Nepal,South and Central Asia,Economic,Disbursements,138965106,1,1,0
+Nepal,South and Central Asia,Military,Obligations,5015510,0,0,1
+Nepal,South and Central Asia,Military,Disbursements,5015510,0,0,1
+Netherlands,Europe and Eurasia,Economic,Obligations,5327336,0,0,1
+Netherlands,Europe and Eurasia,Economic,Disbursements,3285802,0,0,1
+Netherlands,Europe and Eurasia,Military,Obligations,7089,0,0,1
+Netherlands,Europe and Eurasia,Military,Disbursements,7089,0,0,1
+Vanuatu,East Asia and Oceania,Economic,Obligations,5021110,0,0,1
+Vanuatu,East Asia and Oceania,Economic,Disbursements,4599720,0,0,1
+Vanuatu,East Asia and Oceania,Military,Obligations,45000,0,0,1
+Vanuatu,East Asia and Oceania,Military,Disbursements,45000,0,0,1
+New Zealand,East Asia and Oceania,Military,Obligations,10621,0,0,1
+New Zealand,East Asia and Oceania,Military,Disbursements,10621,0,0,1
+Nicaragua,Western Hemisphere,Economic,Obligations,33696429,1,1,0
+Nicaragua,Western Hemisphere,Economic,Disbursements,38620423,1,1,0
+Nicaragua,Western Hemisphere,Military,Obligations,7479000,0,0,1
+Nicaragua,Western Hemisphere,Military,Disbursements,7479000,0,0,1
+Niger,Sub-Saharan Africa,Economic,Obligations,104667830,1,1,0
+Niger,Sub-Saharan Africa,Economic,Disbursements,104241951,1,1,0
+Niger,Sub-Saharan Africa,Military,Obligations,20109996,0,1,0
+Niger,Sub-Saharan Africa,Military,Disbursements,20109996,0,1,0
+Nigeria,Sub-Saharan Africa,Economic,Obligations,588150525,1,1,0
+Nigeria,Sub-Saharan Africa,Economic,Disbursements,440551561,1,1,0
+Nigeria,Sub-Saharan Africa,Military,Obligations,4199120,1,0,1
+Nigeria,Sub-Saharan Africa,Military,Disbursements,4199120,1,0,1
+Norway,Europe and Eurasia,Military,Obligations,6541,0,0,1
+Norway,Europe and Eurasia,Military,Disbursements,6541,0,0,1
+Micronesia (Federated States),East Asia and Oceania,Economic,Obligations,115080299,1,1,0
+Micronesia (Federated States),East Asia and Oceania,Economic,Disbursements,91706396,1,1,0
+Marshall Islands,East Asia and Oceania,Economic,Obligations,75641744,1,1,0
+Marshall Islands,East Asia and Oceania,Economic,Disbursements,69098093,1,1,0
+Palau,East Asia and Oceania,Economic,Obligations,14236610,1,1,0
+Palau,East Asia and Oceania,Economic,Disbursements,13721174,1,1,0
+Pakistan,South and Central Asia,Economic,Obligations,840198638,1,1,0
+Pakistan,South and Central Asia,Economic,Disbursements,824314737,1,1,0
+Pakistan,South and Central Asia,Military,Obligations,295046640,1,1,0
+Pakistan,South and Central Asia,Military,Disbursements,293990057,1,1,0
+Panama,Western Hemisphere,Economic,Obligations,12205024,0,1,0
+Panama,Western Hemisphere,Economic,Disbursements,10558143,0,1,0
+Panama,Western Hemisphere,Military,Obligations,8505440,0,0,1
+Panama,Western Hemisphere,Military,Disbursements,8505440,0,0,1
+Papua New Guinea,East Asia and Oceania,Economic,Obligations,10509081,0,1,0
+Papua New Guinea,East Asia and Oceania,Economic,Disbursements,8210321,0,0,1
+Papua New Guinea,East Asia and Oceania,Military,Obligations,310839,0,0,1
+Papua New Guinea,East Asia and Oceania,Military,Disbursements,310839,0,0,1
+Paraguay,Western Hemisphere,Economic,Obligations,16877441,1,1,0
+Paraguay,Western Hemisphere,Economic,Disbursements,18048178,1,1,0
+Paraguay,Western Hemisphere,Military,Obligations,509942,0,0,1
+Paraguay,Western Hemisphere,Military,Disbursements,509942,0,0,1
+Peru,Western Hemisphere,Economic,Obligations,294815233,1,1,0
+Peru,Western Hemisphere,Economic,Disbursements,291673247,1,1,0
+Peru,Western Hemisphere,Military,Obligations,9218169,0,0,1
+Peru,Western Hemisphere,Military,Disbursements,9218169,0,0,1
+Philippines,East Asia and Oceania,Economic,Obligations,153661153,1,1,0
+Philippines,East Asia and Oceania,Economic,Disbursements,293266111,1,1,0
+Philippines,East Asia and Oceania,Military,Obligations,100693040,0,1,0
+Philippines,East Asia and Oceania,Military,Disbursements,89988165,0,1,0
+Poland,Europe and Eurasia,Economic,Obligations,21305219,1,1,0
+Poland,Europe and Eurasia,Economic,Disbursements,13063028,1,1,0
+Poland,Europe and Eurasia,Military,Obligations,11103614,1,1,0
+Poland,Europe and Eurasia,Military,Disbursements,440250859,1,1,0
+Portugal,Europe and Eurasia,Economic,Obligations,249307,0,0,1
+Portugal,Europe and Eurasia,Economic,Disbursements,421763,0,0,1
+Portugal,Europe and Eurasia,Military,Obligations,90000,0,0,1
+Portugal,Europe and Eurasia,Military,Disbursements,90000,0,0,1
+Guinea-Bissau,Sub-Saharan Africa,Economic,Obligations,1481776,0,0,1
+Guinea-Bissau,Sub-Saharan Africa,Economic,Disbursements,1545527,0,0,1
+Guinea-Bissau,Sub-Saharan Africa,Military,Obligations,130000,0,0,1
+Guinea-Bissau,Sub-Saharan Africa,Military,Disbursements,130000,0,0,1
+Timor-Leste,East Asia and Oceania,Economic,Obligations,25502212,1,1,0
+Timor-Leste,East Asia and Oceania,Economic,Disbursements,21638648,1,1,0
+Timor-Leste,East Asia and Oceania,Military,Obligations,793500,0,0,1
+Timor-Leste,East Asia and Oceania,Military,Disbursements,793500,0,0,1
+Qatar,Middle East and North Africa,Economic,Obligations,14281,0,0,1
+Qatar,Middle East and North Africa,Economic,Disbursements,14398,0,0,1
+Qatar,Middle East and North Africa,Military,Obligations,21000,0,0,1
+Qatar,Middle East and North Africa,Military,Disbursements,21000,0,0,1
+Romania,Europe and Eurasia,Economic,Obligations,10538554,1,1,0
+Romania,Europe and Eurasia,Economic,Disbursements,6042425,0,0,1
+Romania,Europe and Eurasia,Military,Obligations,21170749,1,1,0
+Romania,Europe and Eurasia,Military,Disbursements,21170749,1,1,0
+Russia,Europe and Eurasia,Economic,Obligations,22839017,1,1,0
+Russia,Europe and Eurasia,Economic,Disbursements,28711322,1,1,0
+Rwanda,Sub-Saharan Africa,Economic,Obligations,245836966,1,1,0
+Rwanda,Sub-Saharan Africa,Economic,Disbursements,183250134,1,1,0
+Rwanda,Sub-Saharan Africa,Military,Obligations,933633,0,0,1
+Rwanda,Sub-Saharan Africa,Military,Disbursements,933633,0,0,1
+St. Kitts and Nevis,Western Hemisphere,Military,Obligations,469270,0,0,1
+St. Kitts and Nevis,Western Hemisphere,Military,Disbursements,469270,0,0,1
+St. Lucia,Western Hemisphere,Economic,Obligations,24890,0,0,1
+St. Lucia,Western Hemisphere,Economic,Disbursements,15584,0,0,1
+St. Vincent and Grenadines,Western Hemisphere,Economic,Obligations,-3586,0,0,1
+St. Vincent and Grenadines,Western Hemisphere,Military,Obligations,390000,0,0,1
+St. Vincent and Grenadines,Western Hemisphere,Military,Disbursements,390000,0,0,1
+Sao Tome and Principe,Sub-Saharan Africa,Economic,Obligations,125166,0,0,1
+Sao Tome and Principe,Sub-Saharan Africa,Economic,Disbursements,142604,0,0,1
+Sao Tome and Principe,Sub-Saharan Africa,Military,Obligations,74000,0,0,1
+Sao Tome and Principe,Sub-Saharan Africa,Military,Disbursements,74000,0,0,1
+Saudi Arabia,Middle East and North Africa,Economic,Obligations,225364,0,0,1
+Saudi Arabia,Middle East and North Africa,Economic,Disbursements,252055,0,0,1
+Saudi Arabia,Middle East and North Africa,Military,Obligations,12468,0,0,1
+Saudi Arabia,Middle East and North Africa,Military,Disbursements,12468,0,0,1
+Senegal,Sub-Saharan Africa,Economic,Obligations,110448272,1,1,0
+Senegal,Sub-Saharan Africa,Economic,Disbursements,308847005,1,1,0
+Senegal,Sub-Saharan Africa,Military,Obligations,6271710,0,0,1
+Senegal,Sub-Saharan Africa,Military,Disbursements,6271710,0,0,1
+Serbia,Europe and Eurasia,Economic,Obligations,24842417,1,0,1
+Serbia,Europe and Eurasia,Economic,Disbursements,26628019,1,0,1
+Serbia,Europe and Eurasia,Military,Obligations,2709139,0,0,1
+Serbia,Europe and Eurasia,Military,Disbursements,2709139,0,0,1
+Seychelles,Sub-Saharan Africa,Economic,Obligations,-46074,0,0,1
+Seychelles,Sub-Saharan Africa,Economic,Disbursements,15959,0,0,1
+Seychelles,Sub-Saharan Africa,Military,Obligations,473757,0,0,1
+Seychelles,Sub-Saharan Africa,Military,Disbursements,473757,0,0,1
+Sierra Leone,Sub-Saharan Africa,Economic,Obligations,199966377,1,1,0
+Sierra Leone,Sub-Saharan Africa,Economic,Disbursements,73923692,1,1,0
+Sierra Leone,Sub-Saharan Africa,Military,Obligations,584282,1,0,1
+Sierra Leone,Sub-Saharan Africa,Military,Disbursements,584282,0,0,1
+Singapore,East Asia and Oceania,Economic,Obligations,591369,0,0,1
+Singapore,East Asia and Oceania,Economic,Disbursements,384392,0,0,1
+Singapore,East Asia and Oceania,Military,Obligations,10692,0,0,1
+Singapore,East Asia and Oceania,Military,Disbursements,10692,0,0,1
+Slovak Republic,Europe and Eurasia,Economic,Obligations,890859,0,0,1
+Slovak Republic,Europe and Eurasia,Economic,Disbursements,355338,0,0,1
+Slovak Republic,Europe and Eurasia,Military,Obligations,946144,0,0,1
+Slovak Republic,Europe and Eurasia,Military,Disbursements,946144,0,0,1
+Vietnam,East Asia and Oceania,Economic,Obligations,99648531,1,1,0
+Vietnam,East Asia and Oceania,Economic,Disbursements,92345258,1,1,0
+Vietnam,East Asia and Oceania,Military,Obligations,17906218,1,1,0
+Vietnam,East Asia and Oceania,Military,Disbursements,12804703,1,1,0
+Slovenia,Europe and Eurasia,Economic,Obligations,25019,0,0,1
+Slovenia,Europe and Eurasia,Economic,Disbursements,87021,0,0,1
+Slovenia,Europe and Eurasia,Military,Obligations,615674,0,0,1
+Slovenia,Europe and Eurasia,Military,Disbursements,615674,0,0,1
+Somalia,Sub-Saharan Africa,Economic,Obligations,244099029,1,1,0
+Somalia,Sub-Saharan Africa,Economic,Disbursements,213719199,1,1,0
+Somalia,Sub-Saharan Africa,Military,Obligations,11006876,1,1,0
+Somalia,Sub-Saharan Africa,Military,Disbursements,11006876,1,1,0
+South Africa,Sub-Saharan Africa,Economic,Obligations,359170438,1,1,0
+South Africa,Sub-Saharan Africa,Economic,Disbursements,366342396,1,1,0
+South Africa,Sub-Saharan Africa,Military,Obligations,3204104,0,0,1
+South Africa,Sub-Saharan Africa,Military,Disbursements,1397101,0,0,1
+Zimbabwe,Sub-Saharan Africa,Economic,Obligations,190121244,1,1,0
+Zimbabwe,Sub-Saharan Africa,Economic,Disbursements,166297484,1,1,0
+Spain,Europe and Eurasia,Economic,Obligations,1997128,0,0,1
+Spain,Europe and Eurasia,Economic,Disbursements,3070425,0,0,1
+Spain,Europe and Eurasia,Military,Obligations,100749,0,0,1
+Spain,Europe and Eurasia,Military,Disbursements,100749,0,0,1
+South Sudan,Sub-Saharan Africa,Economic,Obligations,811656250,1,1,0
+South Sudan,Sub-Saharan Africa,Economic,Disbursements,665466675,1,1,0
+South Sudan,Sub-Saharan Africa,Military,Obligations,26932800,1,1,0
+South Sudan,Sub-Saharan Africa,Military,Disbursements,31581000,0,0,1
+Sudan,Sub-Saharan Africa,Economic,Obligations,147833033,1,1,0
+Sudan,Sub-Saharan Africa,Economic,Disbursements,118087120,1,1,0
+Sudan (former),Sub-Saharan Africa,Economic,Obligations,83099930,1,1,0
+Sudan (former),Sub-Saharan Africa,Economic,Disbursements,119947915,1,1,0
+Suriname,Western Hemisphere,Economic,Obligations,,0,0,1
+Suriname,Western Hemisphere,Military,Obligations,218246,0,0,1
+Suriname,Western Hemisphere,Military,Disbursements,218246,0,0,1
+Swaziland,Sub-Saharan Africa,Economic,Obligations,45970154,1,1,0
+Swaziland,Sub-Saharan Africa,Economic,Disbursements,34323036,1,1,0
+Swaziland,Sub-Saharan Africa,Military,Obligations,152158,0,0,1
+Swaziland,Sub-Saharan Africa,Military,Disbursements,152158,0,0,1
+Sweden,Europe and Eurasia,Military,Obligations,3270,0,0,1
+Sweden,Europe and Eurasia,Military,Disbursements,3270,0,0,1
+Switzerland,Europe and Eurasia,Economic,Obligations,1140145,0,0,1
+Switzerland,Europe and Eurasia,Economic,Disbursements,1133352,0,0,1
+Switzerland,Europe and Eurasia,Military,Obligations,7638,0,0,1
+Switzerland,Europe and Eurasia,Military,Disbursements,7638,0,0,1
+Syria,Middle East and North Africa,Economic,Obligations,874522148,1,1,0
+Syria,Middle East and North Africa,Economic,Disbursements,737264094,1,1,0
+Syria,Middle East and North Africa,Military,Obligations,38520000,,1,0
+Tajikistan,South and Central Asia,Economic,Obligations,36521411,1,1,0
+Tajikistan,South and Central Asia,Economic,Disbursements,35400319,1,1,0
+Tajikistan,South and Central Asia,Military,Obligations,16363362,1,1,0
+Tajikistan,South and Central Asia,Military,Disbursements,16363362,1,1,0
+Thailand,East Asia and Oceania,Economic,Obligations,62417475,1,1,0
+Thailand,East Asia and Oceania,Economic,Disbursements,53828345,1,1,0
+Thailand,East Asia and Oceania,Military,Obligations,4538415,0,0,1
+Thailand,East Asia and Oceania,Military,Disbursements,2036018,0,0,1
+Togo,Sub-Saharan Africa,Economic,Obligations,3129983,0,0,1
+Togo,Sub-Saharan Africa,Economic,Disbursements,3002098,0,0,1
+Togo,Sub-Saharan Africa,Military,Obligations,1035218,0,0,1
+Togo,Sub-Saharan Africa,Military,Disbursements,1035218,0,0,1
+Tonga,East Asia and Oceania,Economic,Obligations,1328598,0,0,1
+Tonga,East Asia and Oceania,Economic,Disbursements,1359430,0,0,1
+Tonga,East Asia and Oceania,Military,Obligations,258905,0,0,1
+Tonga,East Asia and Oceania,Military,Disbursements,258905,0,0,1
+Trinidad and Tobago,Western Hemisphere,Economic,Obligations,539549,0,0,1
+Trinidad and Tobago,Western Hemisphere,Economic,Disbursements,800944,0,0,1
+Trinidad and Tobago,Western Hemisphere,Military,Obligations,900892,0,0,1
+Trinidad and Tobago,Western Hemisphere,Military,Disbursements,900892,0,0,1
+United Arab Emirates,Middle East and North Africa,Economic,Obligations,221443,0,0,1
+United Arab Emirates,Middle East and North Africa,Economic,Disbursements,601655,0,0,1
+United Arab Emirates,Middle East and North Africa,Military,Obligations,307270,0,0,1
+United Arab Emirates,Middle East and North Africa,Military,Disbursements,307270,0,0,1
+Tunisia,Middle East and North Africa,Economic,Obligations,34398335,1,1,0
+Tunisia,Middle East and North Africa,Economic,Disbursements,19506580,1,1,0
+Tunisia,Middle East and North Africa,Military,Obligations,88504957,1,1,0
+Tunisia,Middle East and North Africa,Military,Disbursements,88504957,1,1,0
+Turkey,Europe and Eurasia,Economic,Obligations,111529160,1,1,0
+Turkey,Europe and Eurasia,Economic,Disbursements,41572708,1,1,0
+Turkey,Europe and Eurasia,Military,Obligations,3940159,0,0,1
+Turkey,Europe and Eurasia,Military,Disbursements,3940159,0,0,1
+Turkmenistan,South and Central Asia,Economic,Obligations,5624939,0,0,1
+Turkmenistan,South and Central Asia,Economic,Disbursements,8337095,0,0,1
+Turkmenistan,South and Central Asia,Military,Obligations,537577,0,0,1
+Turkmenistan,South and Central Asia,Military,Disbursements,537577,0,0,1
+Tuvalu,East Asia and Oceania,Economic,Obligations,50000,,0,1
+Tuvalu,East Asia and Oceania,Economic,Disbursements,49778,,0,1
+Tuvalu,East Asia and Oceania,Military,Obligations,108000,,0,1
+Tuvalu,East Asia and Oceania,Military,Disbursements,108000,,0,1
+Uganda,Sub-Saharan Africa,Economic,Obligations,564530663,1,1,0
+Uganda,Sub-Saharan Africa,Economic,Disbursements,404173403,1,1,0
+Uganda,Sub-Saharan Africa,Military,Obligations,26949896,1,1,0
+Uganda,Sub-Saharan Africa,Military,Disbursements,22569252,1,1,0
+Ukraine,Europe and Eurasia,Economic,Obligations,228159054,1,1,0
+Ukraine,Europe and Eurasia,Economic,Disbursements,290271722,1,1,0
+Ukraine,Europe and Eurasia,Military,Obligations,76768448,1,1,0
+Ukraine,Europe and Eurasia,Military,Disbursements,49621229,1,1,0
+Macedonia,Europe and Eurasia,Economic,Obligations,23016480,1,1,0
+Macedonia,Europe and Eurasia,Economic,Disbursements,23565948,1,1,0
+Macedonia,Europe and Eurasia,Military,Obligations,6742202,0,0,1
+Macedonia,Europe and Eurasia,Military,Disbursements,6742202,0,0,1
+Egypt,Middle East and North Africa,Economic,Obligations,222627058,1,1,0
+Egypt,Middle East and North Africa,Economic,Disbursements,101232479,1,1,0
+Egypt,Middle East and North Africa,Military,Obligations,1302839133,0,1,0
+Egypt,Middle East and North Africa,Military,Disbursements,1302839133,0,1,0
+United Kingdom,Europe and Eurasia,Economic,Obligations,262935,0,0,1
+United Kingdom,Europe and Eurasia,Economic,Disbursements,203479,0,0,1
+United Kingdom,Europe and Eurasia,Military,Obligations,6151,,0,1
+United Kingdom,Europe and Eurasia,Military,Disbursements,6151,,0,1
+Tanzania,Sub-Saharan Africa,Economic,Obligations,586826177,1,1,0
+Tanzania,Sub-Saharan Africa,Economic,Disbursements,457116160,1,1,0
+Tanzania,Sub-Saharan Africa,Military,Obligations,4765644,0,0,1
+Tanzania,Sub-Saharan Africa,Military,Disbursements,3358334,0,0,1
+Burkina Faso,Sub-Saharan Africa,Economic,Obligations,32215387,0,1,0
+Burkina Faso,Sub-Saharan Africa,Economic,Disbursements,78145904,1,1,0
+Burkina Faso,Sub-Saharan Africa,Military,Obligations,330325,0,0,1
+Burkina Faso,Sub-Saharan Africa,Military,Disbursements,330325,0,0,1
+Uruguay,Western Hemisphere,Economic,Obligations,1659792,0,0,1
+Uruguay,Western Hemisphere,Economic,Disbursements,637682,0,0,1
+Uruguay,Western Hemisphere,Military,Obligations,699576,0,0,1
+Uruguay,Western Hemisphere,Military,Disbursements,699576,0,0,1
+Uzbekistan,South and Central Asia,Economic,Obligations,22054023,1,1,0
+Uzbekistan,South and Central Asia,Economic,Disbursements,15861147,1,1,0
+Uzbekistan,South and Central Asia,Military,Obligations,26034667,1,1,0
+Uzbekistan,South and Central Asia,Military,Disbursements,17395134,1,1,0
+Venezuela,Western Hemisphere,Economic,Obligations,9222146,0,0,1
+Venezuela,Western Hemisphere,Economic,Disbursements,7287486,0,0,1
+Samoa,East Asia and Oceania,Economic,Obligations,867449,0,0,1
+Samoa,East Asia and Oceania,Economic,Disbursements,857873,0,0,1
+Samoa,East Asia and Oceania,Military,Obligations,87000,0,0,1
+Samoa,East Asia and Oceania,Military,Disbursements,87000,0,0,1
+Yemen,Middle East and North Africa,Economic,Obligations,176496160,1,1,0
+Yemen,Middle East and North Africa,Economic,Disbursements,157739743,1,1,0
+Yemen,Middle East and North Africa,Military,Obligations,241527,1,0,1
+Yemen,Middle East and North Africa,Military,Disbursements,241527,1,0,1
+Zambia,Sub-Saharan Africa,Economic,Obligations,245425894,1,1,0
+Zambia,Sub-Saharan Africa,Economic,Disbursements,287497830,1,1,0
+Zambia,Sub-Saharan Africa,Military,Obligations,387500,0,0,1
+Zambia,Sub-Saharan Africa,Military,Disbursements,387500,0,0,1
+China (Tibet),East Asia and Oceania,Economic,Obligations,746000,0,0,1
+China (Tibet),East Asia and Oceania,Economic,Disbursements,746000,0,0,1
+Kosovo,Europe and Eurasia,Economic,Obligations,46852220,1,1,0
+Kosovo,Europe and Eurasia,Economic,Disbursements,50971292,1,1,0
+Kosovo,Europe and Eurasia,Military,Obligations,5345815,0,0,1
+Kosovo,Europe and Eurasia,Military,Disbursements,5345815,0,0,1
