@@ -1,0 +1,33 @@
+Laura's Proposed Project Idea from 1-12-17 email:
+Idea 1
+-Use ML to predict whether USAID will distribute economic/military aid to a country in future years. The Country Summary data 
+on this web page would be a starting point. It'd also be great if we could use change in aid amounts to predict 
+how much a country would receive.
+
+Idea 2
+Use ML to predict whether a plant will get a disease - something similar to this research: http://www.ikg.uni-bonn.de/uploads/tx_ikgpublication/Dissertation_Rumpf.pdf
+
+Jan 13, 2017 email from Majid:
+I have to thank you for heading me in a good direction as far as usage of data (data for the good of the world).
+The following is what I have gathered as our initial tasks. Feel free to update the list.
+1.      Identify the datasets
+
+2.      If we pick more than one dataset, how to join them.
+
+3.      Identify the features – Decide how/if we derive feature (convert ratio types to discrete types or reduce the number of discrete values, etc.).
+
+4.      What question are we going to answer.
+
+USAID Data from Laura: https://explorer.usaid.gov/data.html (Country Summary CSV data)
+
+The data catalog for the World Bank:
+It was my first time there, so I am not familiar with the datasets.  Below is what I could gather quickly. If you already have the knowledge of your way around the World Bank Catalog, or if you find datasets that might better suit our needs, please feel free to update. 
+http://datacatalog.worldbank.org/
+ 
+Datasets that might be of interest:
+http://data.worldbank.org/data-catalog/poverty-and-equity-database
+http://data.worldbank.org/data-catalog/world-development-report-2014
+http://data.worldbank.org/data-catalog/sub-national-poverty-data
+http://data.worldbank.org/data-catalog/HNPquintile
+ 
+Regards, Majid
