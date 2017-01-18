@@ -7,6 +7,7 @@ actual amount > $10 m US, and actual amount < $10 US.
 
 A machine learning algorithm could predict whether next year’s aid amount will be greater than $10 million US.
 
-Idea - should the # of people in Poverty by country (PovStats-Data from the World Bank datasets) be included in this analysis?
+Idea - should the number of people in Poverty by country (PovStats-Data from the World Bank datasets: http://data.worldbank.org/data-catalog/poverty-and-equity-database) 
+be included in this analysis?
 
 
