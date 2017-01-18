@@ -1,2 +1,12 @@
-The original dataset has 20,703 examples of money given by USAID to foreign countries for economic and military assistance with year categories: 2015 (776 examples) and 2014 (706 examples). Features (see also World Bank for category explanations) include region (East Asia and Pacific, Europe and Central Asia, Latin America & the Caribbean, Middle East and North Africa, North America, South Asia and Sub-Saharan Africa), aid category (Economic, Military), aid distributed (obligations, disbursements), aid received in last year, actual amount > $10 m US, and actual amount < $10 US.  
+The original dataset has 20,703 examples of money given by USAID to foreign countries for 
+economic and military assistance with year categories: 2015 (776 examples) and 2014 (706 examples). 
+Features (see also World Bank for category explanations) include region (East Asia and Pacific, Europe and Central Asia, Latin America 
+& the Caribbean, Middle East and North Africa, North America, South Asia and Sub-Saharan Africa), 
+aid category (Economic, Military), aid distributed (obligations, disbursements), aid received in last year, 
+actual amount > $10 m US, and actual amount < $10 US.  
+
 A machine learning algorithm could predict whether next year’s aid amount will be greater than $10 million US.
+
+Idea - should the # of people in Poverty by country (PovStats-Data from the World Bank datasets) be included in this analysis?
+
+
