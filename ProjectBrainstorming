@@ -41,3 +41,10 @@ the development community. Also, cursory research shows that this analysis has n
 -We don't want to overfit the data so the challenge will be choosing our features for the ML model wisely.
 -Represent multi-dimensional vector as an array in Python: 
 cs23ln.github.io/python-numpy-tutorial
+
+1/19/17: USAID Domain expert recommends deleting military expenditures from analysis due to political reasons. States there is no
+known research of this type.
+1/19/17: Majid creates DropBox with all data files and sets up permissions access
+
+1/24/17: Laura uploads CSV file to DropBox Majid sets up and explains how columns were determined.
+
