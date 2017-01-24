@@ -1,0 +1,8 @@
+#Python Recipe from http://code.activestate.com/recipes/577423-convert-csv-to-xml/
+
+import csv
+csvFile = 'HW0-usaid-data.csv'
+arffFile = 'HW0-usaid-data.arff'
+csvData = csv.reader(open(csvFile))
+arffData = open(arffFile, 'w')
+arffData.write('csvData + "\n")
