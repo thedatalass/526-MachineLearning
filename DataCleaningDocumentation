@@ -1,11 +1,21 @@
 USAID Raw Data (Country Summary): https://explorer.usaid.gov/data.html
 -Only using columns "2015 Economic Obligations", "2014 Economic Obligations", "2015 Economic Disbursements" and "2014 Economic Disbursements"
--Manually added if aid >10 million US$ or if aid <10 million US$ --is this an appropriate threshold?
+-Manually added if aid >10 million US$ or if aid <10 million US$ --is this an appropriate threshold? get domain expert opinion
+-Deleted "Obligations" row since we want to only look at the amount of money the country actually received.
 -Changed "country_name" to "Country" and "Transaction_type_name" to "Transaction"
 
 World Bank World Development Indicators - raw data: http://data.worldbank.org/data-catalog/world-development-indicators
 
 Deleted rows 1-68245 which was the cumulative amounts by region.
 Deleted rows E-AV which had years 1960-2003
-Selected GDP "Indicator Name" for the feature to add to the data set
+Selected GDP per capita  "Indicator Name" for the feature to add to the data set
 Deleted Indicator Code and Country Code
+
+Definition of GDP: GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value 
+added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. 
+It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. 
+Data are in current U.S. dollars.Annual percentage growth rate of GDP per capita based on constant local currency. 
+Aggregates are based on constant 2010 U.S. dollars. GDP per capita is gross domestic product divided by midyear population. 
+GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and 
+minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated 
+assets or for depletion and degradation of natural resources.
