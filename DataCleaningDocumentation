@@ -1,3 +1,8 @@
+USAID Raw Data (Country Summary): https://explorer.usaid.gov/data.html
+-Only using columns "2015 Economic Obligations", "2014 Economic Obligations", "2015 Economic Disbursements" and "2014 Economic Disbursements"
+-Manually added if aid >10 million US$ or if aid <10 million US$ --is this an appropriate threshold?
+
+
 World Bank World Development Indicators - raw data: http://data.worldbank.org/data-catalog/world-development-indicators
 
 Deleted rows 1-68245 which was the cumulative amounts by region.
