@@ -7,5 +7,5 @@ World Bank World Development Indicators - raw data: http://data.worldbank.org/da
 
 Deleted rows 1-68245 which was the cumulative amounts by region.
 Deleted rows E-AV which had years 1960-2003
-Selected GDP per capita growth (annual %) "Indicator Name" for the feature to add to the data set
+Selected GDP "Indicator Name" for the feature to add to the data set
 Deleted Indicator Code and Country Code
