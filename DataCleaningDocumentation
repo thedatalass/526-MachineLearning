@@ -3,6 +3,7 @@ USAID Raw Data (Country Summary): https://explorer.usaid.gov/data.html
 -Manually added if aid >10 million US$ or if aid <10 million US$ --is this an appropriate threshold? get domain expert opinion
 -Deleted "Obligations" row since we want to only look at the amount of money the country actually received.
 -Changed "country_name" to "Country" and "Transaction_type_name" to "Transaction"
+-Disambiguated country names between data sources; alphabatized by country
 
 World Bank World Development Indicators - raw data: http://data.worldbank.org/data-catalog/world-development-indicators
 
