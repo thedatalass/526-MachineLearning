@@ -9,7 +9,7 @@ World Bank World Development Indicators - raw data: http://data.worldbank.org/da
 
 Deleted rows 1-68245 which was the cumulative amounts by region.
 Deleted rows with years 1960-2009
-Selected GDP per capita  "Indicator Name" for the feature to add to the data set
+Selected GDP growth  "Indicator Name" for the feature to add to the data set
 Deleted Indicator Code and Country Code
 
 Definition of GDP: GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value 
