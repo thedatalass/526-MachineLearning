@@ -21,4 +21,4 @@ GDP at purchaser's prices is the sum of gross value added by all resident produc
 minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated 
 assets or for depletion and degradation of natural resources.
 
-2/3/17 - MCC data: only available for these countries (https://www.mcc.gov/where-we-work) so should it be added to the model?
+2/3/17 - MCC data: only available for 46/189 countries (https://www.mcc.gov/where-we-work) so it will not be added to the ML model
