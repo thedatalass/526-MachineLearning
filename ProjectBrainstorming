@@ -49,3 +49,6 @@ known research of this type.
 1/24/17: Laura uploads CSV file to DropBox Majid sets up and explains how columns were determined.
 Perhaps also add "World Development Index" feature column from World Bank (http://data.worldbank.org/indicator/SI.POV.NAHC?end=2015&locations=AL&start=2015&view=bar
 ) to USAID data set ??
+
+2/3/17 -decided to go with World Bank GDP annual growth% since there is 2015 data for all countries -also this compares the country against itself
+- will not use Millennium Challenge Corporation dat asince they only have data for 46/189 countries already in USAID table
