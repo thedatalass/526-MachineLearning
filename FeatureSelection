@@ -49,11 +49,17 @@ known research of this type.
 
 1/24/17: Laura uploads CSV file to DropBox Majid sets up and explains how columns were determined.
 Perhaps also add "World Development Index" feature column from World Bank (http://data.worldbank.org/indicator/SI.POV.NAHC?end=2015&locations=AL&start=2015&view=bar
-) to USAID data set ??
+) to USAID data set - 
 
 2/3/17 -decided to go with World Bank GDP annual growth% since there is more complete data for all countries -also this compares the country against itself
 - will not use Millennium Challenge Corporation data since they only have data for 46/189 countries -they work in 24% of all countries USAID works in
 -Majid created metadata file for USAID data using Excel headings
+-we decided to join USAID & World Bank data sets (manually in Excel sadly) to see if there 
+was a correlation between GDP growth rate, and predicted foreign aid amount over 10 million US
+-We did not include other non-government organizations such as private foundations, etc but chose to 
+specifically focus on the top two government aid organizations
+
+2/6/17: Missing data -- how much is this an issue?
 
 2/7/17: 2016 data became available so that will be added to data set (missing 42 country's data disbursement amount)
 Sorted existing cleaned data set to try to see if 10 million US$ was an appropriate threshold for the feature
