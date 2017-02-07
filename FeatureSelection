@@ -59,6 +59,7 @@ Perhaps also add "World Development Index" feature column from World Bank (http:
 Sorted existing cleaned data set to try to see if 10 million US$ was an appropriate threshold for the feature
 Since 101/188 countries received this amount (53%), we decided this was an appropriate threshold
 Do not want to overfit the model
+-Deleted China (Tibet) and China (Hong Kong) since no USAID 2014-2016
 
 USAID aid selection criteria documentation uploaded to DropBox
 
