@@ -55,7 +55,7 @@ Perhaps also add "World Development Index" feature column from World Bank (http:
 - will not use Millennium Challenge Corporation data since they only have data for 46/189 countries -they work in 24% of all countries USAID works in
 -Majid created metadata file for USAID data using Excel headings
 
-2/7/17: 2016 data became available so that will be added to data set
+2/7/17: 2016 data became available so that will be added to data set (missing 42 country's data disbursement amount)
 Sorted existing cleaned data set to try to see if 10 million US$ was an appropriate threshold for the feature
 Since 101/188 countries received this amount (53%), we decided this was an appropriate threshold
 Do not want to overfit the model
