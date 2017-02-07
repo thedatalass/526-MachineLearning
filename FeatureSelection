@@ -37,6 +37,8 @@ Regards, Majid
 
 1/18/17 - Laura has a call into USAID Economic Analysis and Data Services Director to see if this research is needed/ relevant for
 the development community. Also, cursory research shows that this analysis has not been done to date.
+2/1/17 - USAID Data steward confirmed no research of this kind exists that they're aware of and want to be kept 
+up-to-date with project findings
 
 -We don't want to overfit the data so the challenge will be choosing our features for the ML model wisely.
 -Represent multi-dimensional vector as an array in Python: 
@@ -50,5 +52,13 @@ known research of this type.
 Perhaps also add "World Development Index" feature column from World Bank (http://data.worldbank.org/indicator/SI.POV.NAHC?end=2015&locations=AL&start=2015&view=bar
 ) to USAID data set ??
 
-2/3/17 -decided to go with World Bank GDP annual growth% since there is 2015 data for all countries -also this compares the country against itself
-- will not use Millennium Challenge Corporation dat asince they only have data for 46/189 countries already in USAID table
+2/3/17 -decided to go with World Bank GDP annual growth% since there is more complete data for all countries -also this compares the country against itself
+- will not use Millennium Challenge Corporation data since they only have data for 46/189 countries -they work in 24% of all countries USAID works in
+
+2/7/17: 2016 data became available so that will be added to data set
+Sorted existing cleaned data set to try to see if 10 million US$ was an appropriate threshold for the feature
+Since 101/188 countries received this amount (53%), we decided this was an appropriate threshold
+Do not want to overfit the model
+
+USAID aid selection criteria documentation uploaded to DropBox
+
