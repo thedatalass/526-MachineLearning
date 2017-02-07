@@ -67,7 +67,7 @@ Since 101/188 countries received this amount (53%), we decided this was an appro
 Do not want to overfit the model
 -Deleted Austria, Bermuda, Finland, Kiribata, Tuvalu since no data for 2014 or 2016
 -Deleted Macau, New Zealand, Serbia and Montenegro(former), Surinam, Sweden since no data for 2015 or 2016
--Deleted Guyana since no data for 2014 or 2015
+-Deleted Guyana and Kosovo since no data for 2014 or 2015
 -If country is not listed, it doesn't receive USAID dollars
 USAID aid selection criteria documentation uploaded to DropBox
 
