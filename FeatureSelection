@@ -1,13 +1,13 @@
-Laura's Proposed Project Idea from 1-12-17 email:
+Proposed Project Ideas from 1-12-17 email:
 Idea 1
--Use ML to predict whether USAID will distribute economic/military aid to a country in future years. The Country Summary data 
+-Use ML to predict whether USAID will distribute economic aid to a country in future years. The Country Summary data 
 on this web page would be a starting point. It'd also be great if we could use change in aid amounts to predict 
 how much a country would receive.
 
 Idea 2
 Use ML to predict whether a plant will get a disease - something similar to this research: http://www.ikg.uni-bonn.de/uploads/tx_ikgpublication/Dissertation_Rumpf.pdf
 
-Jan 13, 2017 email from Majid:
+Jan 13, 2017 email:
 I have to thank you for heading me in a good direction as far as usage of data (data for the good of the world).
 The following is what I have gathered as our initial tasks. Feel free to update the list.
 1.      Identify the datasets
@@ -29,8 +29,7 @@ http://data.worldbank.org/data-catalog/poverty-and-equity-database
 http://data.worldbank.org/data-catalog/world-development-report-2014
 http://data.worldbank.org/data-catalog/sub-national-poverty-data
 http://data.worldbank.org/data-catalog/HNPquintile
- 
-Regards, Majid
+
 -------
 1/17/17 - We decided to go with Project Idea 1 and have run it by our TA for approval. She says project details will be released after Spring break 
 (March 13) so we've got a head start.
