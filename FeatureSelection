@@ -54,6 +54,7 @@ Perhaps also add "World Development Index" feature column from World Bank (http:
 
 2/3/17 -decided to go with World Bank GDP annual growth% since there is more complete data for all countries -also this compares the country against itself
 - will not use Millennium Challenge Corporation data since they only have data for 46/189 countries -they work in 24% of all countries USAID works in
+-Majid created metadata file for USAID data using Excel headings
 
 2/7/17: 2016 data became available so that will be added to data set
 Sorted existing cleaned data set to try to see if 10 million US$ was an appropriate threshold for the feature
