@@ -60,7 +60,7 @@ Sorted existing cleaned data set to try to see if 10 million US$ was an appropri
 Since 101/188 countries received this amount (53%), we decided this was an appropriate threshold
 Do not want to overfit the model
 -Deleted China (Tibet) and China (Hong Kong) since no USAID 2014-2016
--Deleted Finland since no USAID 2014 or 2016 (GDP growth - -0.1645)
+-Deleted Austria, Finland since no USAID 2014 or 2016 (GDP growth - -0.1645)
 -Deleted Australia since no USAID data 2014-2016
 
 USAID aid selection criteria documentation uploaded to DropBox
