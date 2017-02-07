@@ -59,7 +59,8 @@ Perhaps also add "World Development Index" feature column from World Bank (http:
 Sorted existing cleaned data set to try to see if 10 million US$ was an appropriate threshold for the feature
 Since 101/188 countries received this amount (53%), we decided this was an appropriate threshold
 Do not want to overfit the model
--Deleted Austria since no data 2014 or 2016)
+-Deleted Austria since no data 2014 or 2016
+-Deleted Macau since no data for 2015 or 2016
 -Deleted China (Tibet) and China (Hong Kong) since no USAID 2014-2016
 -Deleted Finland since no USAID 2014 or 2016 (GDP annual growth %= -0.1645)
 -Deleted Kiribata since no data 2014 or 2016 (GDP annual growth% = 3.4970)
