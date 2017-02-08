@@ -1,4 +1,5 @@
 USAID Raw Data (Country Summary): https://explorer.usaid.gov/data.html
+Filtering - making the data set smaller by looking at fewer rows & columns
 -Only using columns "2015 Economic Obligations", "2014 Economic Obligations", "2015 Economic Disbursements" and "2014 Economic Disbursements"
 -Manually added if aid >10 million US$ or if aid <10 million US$ --is this an appropriate threshold? get domain expert opinion
 -Deleted "Obligations" row since we want to only look at the amount of money the country actually received.
