@@ -23,3 +23,7 @@ minus any subsidies not included in the value of the products. It is calculated 
 assets or for depletion and degradation of natural resources.
 
 2/3/17 - MCC data: only available for 46/189 countries (https://www.mcc.gov/where-we-work) so it will not be added to the ML model
+2/7/17 - Deleted all countries without at least 2 of 3 years worth of data for 2014, 2015 and 2016
+Normalized amount >10million to either 0 or 1 amount <10 million US to either 0 or 1 for all years
+If a country is not on the table, it doesn't receive aid from USAID
+10 million is an appropriate threshold since 53% of the data meets the threshold
