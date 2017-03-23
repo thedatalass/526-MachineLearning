@@ -59,7 +59,8 @@ was a correlation between GDP growth rate, and predicted foreign aid amount over
 -We did not include other non-government organizations such as private foundations, etc but chose to 
 specifically focus on the top two government aid organizations
 
-2/6/17: Missing data -- how much is this an issue?
+2/6/17: Missing data -- how much is this an issue? 
+3/23/17: Missing data not a big issue if we choose the right classifier carefully
 
 2/7/17: 2016 data became available so that will be added to data set (missing 42 country's data disbursement amount)
 Sorted existing cleaned data set to try to see if 10 million US$ was an appropriate threshold for the feature
@@ -71,3 +72,5 @@ Do not want to overfit the model
 -If country is not listed, it doesn't receive USAID dollars
 USAID aid selection criteria documentation uploaded to DropBox
 
+3/22/17: Found out about 'Human Development Index' metric from UN (that includes per capita, life expectancy & educatioln
+factors in its calculation) ; http://hdr.undp.org/en/content/human-development-index-hdi; Decided not to include this as a feature in model to keep a simple model for hopeful imporved accuracy
