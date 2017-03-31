@@ -74,3 +74,11 @@ USAID aid selection criteria documentation uploaded to DropBox
 
 3/22/17: Found out about 'Human Development Index' metric from UN (that includes per capita, life expectancy & educatioln
 factors in its calculation) ; http://hdr.undp.org/en/content/human-development-index-hdi; Decided not to include this as a feature in model to keep a simple model for hopeful imporved accuracy
+
+3/30/17: Decided not to use Human Development Index as a variable since it's calculated--want to reduce human error in algorithm
+as much as possible
+
+3/31/17: Conversation with Majid--need to figure out how to load data from web api, then convert from JSON to CSV-
+http://blog.danwin.com/examples-of-web-scraping-in-python-3-x-for-data-journalists/
+Have sent email to TA requesting project requirements as project is due 5-4-17
+--Will need to convert multiple variables to array using list of lists
