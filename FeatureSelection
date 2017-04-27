@@ -41,7 +41,7 @@ up-to-date with project findings
 
 -We don't want to overfit the data so the challenge will be choosing our features for the ML model wisely.
 -Represent multi-dimensional vector as an array in Python: 
-cs23ln.github.io/python-numpy-tutorial
+
 
 1/19/17: USAID Domain expert recommends deleting military expenditures from analysis due to political reasons. States there is no
 known research of this type.
@@ -59,7 +59,7 @@ was a correlation between GDP growth rate, and predicted foreign aid amount over
 -We did not include other non-government organizations such as private foundations, etc but chose to 
 specifically focus on the top two government aid organizations
 
-2/6/17: Missing data -- how much is this an issue? 
+2/6/17: Missing data -- how much is this an issue? ---It's not
 3/23/17: Missing data not a big issue if we choose the right classifier carefully
 
 2/7/17: 2016 data became available so that will be added to data set (missing 42 country's data disbursement amount)
@@ -84,6 +84,7 @@ Have sent email to TA requesting project requirements as project is due 5-4-17
 --Will need to convert multiple variables to array using list of lists
 
 4/16/17: project deadline changed from 5-4-17 to 4-30-17
+We decided not to use GDPannual % growth in our model
 4/23/17: Converted data to an array using cleaned CSV file
 4/25/17: Major differences in aid disbursements from 2014 to 2015 and 2015 to 2016. Neither linear regression or logistic regression were accurate classifiers.
 
